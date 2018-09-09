@@ -22,9 +22,9 @@ class Element {
     }
     SetVal() {
         try {
-            let thisTxt = document.querySelectorAll(this.tag);
+            let thisVal = document.querySelectorAll(this.tag);
             let arr = [];
-            thisTxt.forEach(element => {
+            thisVal.forEach(element => {
                 arr.push(element.value);
             })
             return arr;
